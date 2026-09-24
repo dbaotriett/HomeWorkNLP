@@ -1,0 +1,121 @@
+pipeline,query_id,query,rank,doc_id,similarity,is_relevant,P@5,R@5,RR,preview
+A,1,medical image classification,1,18971,0.386325,False,0.0,,0.0,The new RTS Environmental Classification system (RTS GLT) is designed for parties who are commission
+A,1,medical image classification,2,27781,0.233345,False,0.0,,0.0,❶Press Officer Resume Sample. Based on your requirements and skills you can shuffle these sections i
+A,1,medical image classification,3,190,0.228283,False,0.0,,0.0,"This title is a comprehensive account of the key aspects of medical leadership. A highly accessible,"
+A,1,medical image classification,4,17794,0.224523,False,0.0,,0.0,Filters the output of 'wp_calculate_image_sizes()'. A source size value for use in a 'sizes' attribu
+A,1,medical image classification,5,8370,0.223862,False,0.0,,0.0,"What is a Online Medical Second Opinion? For over 25 years, patients and families have looked to We "
+A,2,transformer language model,1,27936,0.281875,False,0.0,,0.0,"hi, I am having problems with transformer / circuit board om my Hobby 720 uml model 2003. In view of"
+A,2,transformer language model,2,25428,0.231423,False,0.0,,0.0,"Note: If you're on an iPhone, you cannot change the language of Facebook through the mobile app. Ins"
+A,2,transformer language model,3,701,0.221527,False,0.0,,0.0,Program in Teaching French as a Foreign Language was established in 1985 under the Department of For
+A,2,transformer language model,4,4075,0.219029,False,0.0,,0.0,"Looking for Spanish language instructor to improve my reading, writing and speaking skills. We requi"
+A,2,transformer language model,5,24482,0.205631,False,0.0,,0.0,"Harald, you are a co-owner of Language Partners. Are you a linguist yourself, and how did you get in"
+A,3,deep learning healthcare,1,11979,0.284819,False,0.2,0.5,0.3333,Doctorate of Healthcare Organization Program is designed for the healthcare professionals who are wo
+A,3,deep learning healthcare,2,9252,0.281802,False,0.2,0.5,0.3333,"SAN DIEGO AND WASHINGTON, D.C. – Sept. 5, 2018 – West Health, a family of nonpartisan, nonprofit org"
+A,3,deep learning healthcare,3,11119,0.260736,True,0.2,0.5,0.3333,The opportunities offered by Big Data will only materialize when healthcare systems move beyond the 
+A,3,deep learning healthcare,4,3370,0.214928,False,0.2,0.5,0.3333,These two healthcare REITs are trading for dirt-cheap valuations despite high dividends and a solid 
+A,3,deep learning healthcare,5,9229,0.211486,False,0.2,0.5,0.3333,"Influence Health, the healthcare industry’s leading consumer experience solution provider, congratul"
+A,4,natural language processing,1,8705,0.347489,False,0.0,0.0,0.0,These regulations may be called the Food Safety and Standards (Food Products Standards and Food Addi
+A,4,natural language processing,2,25428,0.304868,False,0.0,0.0,0.0,"Note: If you're on an iPhone, you cannot change the language of Facebook through the mobile app. Ins"
+A,4,natural language processing,3,701,0.291831,False,0.0,0.0,0.0,Program in Teaching French as a Foreign Language was established in 1985 under the Department of For
+A,4,natural language processing,4,4075,0.288541,False,0.0,0.0,0.0,"Looking for Spanish language instructor to improve my reading, writing and speaking skills. We requi"
+A,4,natural language processing,5,24482,0.27089,False,0.0,0.0,0.0,"Harald, you are a co-owner of Language Partners. Are you a linguist yourself, and how did you get in"
+A,5,heart attack treatment,1,799,0.419125,True,0.6,1.0,1.0,Can You Have A Heart Attack With A Pacemaker? A pacemaker is not a cure. It will not prevent or stop
+A,5,heart attack treatment,2,1422,0.274097,True,0.6,1.0,1.0,I. Causes of Heart Failure: What every physician needs to know. Heart failure (HF) is a clinical syn
+A,5,heart attack treatment,3,22876,0.234965,False,0.6,1.0,1.0,"NO BOUNDARIES: Trudie Lobban's advocacy for people afflicted with arrhythmia knows no boundaries, li"
+A,5,heart attack treatment,4,16626,0.207316,False,0.6,1.0,1.0,"After failing to apprehend the terrorist behind a Paris attack that claimed dozens of lives, CIA age"
+A,5,heart attack treatment,5,25228,0.192907,True,0.6,1.0,1.0,Results of a small clinical trial showing the benefits of a new pill to treat high blood pressure ha
+A,6,electric car battery,1,8618,0.349229,False,0.0,0.0,0.0,You can extend the life of your scooter's battery if you take proper care of it. Most people report 
+A,6,electric car battery,2,2183,0.347489,False,0.0,0.0,0.0,"After removing the 2 screws, pull out the battery. The battery is connected to the motherboard on th"
+A,6,electric car battery,3,1924,0.331887,False,0.0,0.0,0.0,"People often think that they need to buy it to use the car, but today, despite the car rental indust"
+A,6,electric car battery,4,14059,0.31038,False,0.0,0.0,0.0,The Latest in Electric Skateboards in Biddeford. Use coupon code Biddeford2017 to receive a $10 disc
+A,6,electric car battery,5,15853,0.298206,False,0.0,0.0,0.0,Why does my battery drain fast when I'm not using the device? Whenever I wake my Transformer up afte
+A,7,home mortgage interest rates,1,12912,0.431009,True,1.0,0.5555555555555556,1.0,"For a first-time home buyer interested in building wealth, the rent versus buy decision is often con"
+A,7,home mortgage interest rates,2,14813,0.422652,True,1.0,0.5555555555555556,1.0,What not to do when you about to get a mortgage approval. What not to do when you about to get a mor
+A,7,home mortgage interest rates,3,16873,0.364371,True,1.0,0.5555555555555556,1.0,"We offer a number of products. When purchasing the home of your dreams, adding real estate to your i"
+A,7,home mortgage interest rates,4,7794,0.363084,True,1.0,0.5555555555555556,1.0,"Additionally, Freddie Mac’s most recent Economic Commentary & Projections Table predicts that the 30"
+A,7,home mortgage interest rates,5,13866,0.356227,True,1.0,0.5555555555555556,1.0,"MY LENDERS - MORTGAGES BY SARAH COLUCCI, NEWMARKET AND NEW TECUMSETH MORTGAGE BROKER, ACCESS THE LOW"
+A,8,dog training tips,1,7024,0.439074,False,0.4,1.0,0.5,"When you're in the mood for a piece of unique, artisan dog breed jewelry, fetch For Love of a Dog. Y"
+A,8,dog training tips,2,1987,0.39862,True,0.4,1.0,0.5,Would you love to work with us but you live outside of Southern California? Thanks to the magic of t
+A,8,dog training tips,3,8413,0.38636,True,0.4,1.0,0.5,"Making the commitment to own a dog is not to be taken lightly, intelligent, loving and loyal, dogs b"
+A,8,dog training tips,4,12738,0.358208,False,0.4,1.0,0.5,"These days we live, sleep, and eat with our dogs, in the same house. We share the same air space, ev"
+A,8,dog training tips,5,13901,0.345981,False,0.4,1.0,0.5,"Whether you’re alone, have a partner, or have a family of your own, a pet can complete your househol"
+B,1,medical image classification,1,18971,0.424403,False,0.0,,0.0,The new RTS Environmental Classification system (RTS GLT) is designed for parties who are commission
+B,1,medical image classification,2,8527,0.353664,False,0.0,,0.0,History of maize classification. How races used in classification. Geographical distribution. Existi
+B,1,medical image classification,3,19908,0.260917,False,0.0,,0.0,Download League Of Legends Wallpapers in high-quality for your desktop and smart-phone in wide-scree
+B,1,medical image classification,4,17794,0.259565,False,0.0,,0.0,Filters the output of 'wp_calculate_image_sizes()'. A source size value for use in a 'sizes' attribu
+B,1,medical image classification,5,12658,0.248999,False,0.0,,0.0,"This guidance is for pharmacists who handle, use and sell/supply medical devices. What to do with me"
+B,2,transformer language model,1,27936,0.479363,False,0.0,,0.0,"hi, I am having problems with transformer / circuit board om my Hobby 720 uml model 2003. In view of"
+B,2,transformer language model,2,25428,0.299969,False,0.0,,0.0,"Note: If you're on an iPhone, you cannot change the language of Facebook through the mobile app. Ins"
+B,2,transformer language model,3,24482,0.242729,False,0.0,,0.0,"Harald, you are a co-owner of Language Partners. Are you a linguist yourself, and how did you get in"
+B,2,transformer language model,4,4075,0.225106,False,0.0,,0.0,"Looking for Spanish language instructor to improve my reading, writing and speaking skills. We requi"
+B,2,transformer language model,5,701,0.223924,False,0.0,,0.0,Program in Teaching French as a Foreign Language was established in 1985 under the Department of For
+B,3,deep learning healthcare,1,7564,0.309404,False,0.2,0.5,0.25,"would I have learned, learnt? would you have learned, learnt? would he have learned, learnt? would w"
+B,3,deep learning healthcare,2,6123,0.299195,False,0.2,0.5,0.25,"With today’s advancement in technology, it is becoming more convenient than ever before to earn a Ba"
+B,3,deep learning healthcare,3,11979,0.294494,False,0.2,0.5,0.25,Doctorate of Healthcare Organization Program is designed for the healthcare professionals who are wo
+B,3,deep learning healthcare,4,11119,0.290255,True,0.2,0.5,0.25,The opportunities offered by Big Data will only materialize when healthcare systems move beyond the 
+B,3,deep learning healthcare,5,9252,0.289718,False,0.2,0.5,0.25,"SAN DIEGO AND WASHINGTON, D.C. – Sept. 5, 2018 – West Health, a family of nonpartisan, nonprofit org"
+B,4,natural language processing,1,25428,0.389349,False,0.0,0.0,0.0,"Note: If you're on an iPhone, you cannot change the language of Facebook through the mobile app. Ins"
+B,4,natural language processing,2,8705,0.370393,False,0.0,0.0,0.0,These regulations may be called the Food Safety and Standards (Food Products Standards and Food Addi
+B,4,natural language processing,3,24482,0.315053,False,0.0,0.0,0.0,"Harald, you are a co-owner of Language Partners. Are you a linguist yourself, and how did you get in"
+B,4,natural language processing,4,4075,0.29218,False,0.0,0.0,0.0,"Looking for Spanish language instructor to improve my reading, writing and speaking skills. We requi"
+B,4,natural language processing,5,701,0.290645,False,0.0,0.0,0.0,Program in Teaching French as a Foreign Language was established in 1985 under the Department of For
+B,5,heart attack treatment,1,799,0.396242,True,0.4,0.6666666666666666,1.0,Can You Have A Heart Attack With A Pacemaker? A pacemaker is not a cure. It will not prevent or stop
+B,5,heart attack treatment,2,1422,0.26206,True,0.4,0.6666666666666666,1.0,I. Causes of Heart Failure: What every physician needs to know. Heart failure (HF) is a clinical syn
+B,5,heart attack treatment,3,11245,0.261314,False,0.4,0.6666666666666666,1.0,"Drink lots of water! HA fillers need water to settle perfectly on your skin, if you’re dehydrated yo"
+B,5,heart attack treatment,4,22876,0.228235,False,0.4,0.6666666666666666,1.0,"NO BOUNDARIES: Trudie Lobban's advocacy for people afflicted with arrhythmia knows no boundaries, li"
+B,5,heart attack treatment,5,16626,0.224673,False,0.4,0.6666666666666666,1.0,"After failing to apprehend the terrorist behind a Paris attack that claimed dozens of lives, CIA age"
+B,6,electric car battery,1,2183,0.510536,False,0.0,0.0,0.0,"After removing the 2 screws, pull out the battery. The battery is connected to the motherboard on th"
+B,6,electric car battery,2,8618,0.3997,False,0.0,0.0,0.0,You can extend the life of your scooter's battery if you take proper care of it. Most people report 
+B,6,electric car battery,3,1924,0.391838,False,0.0,0.0,0.0,"People often think that they need to buy it to use the car, but today, despite the car rental indust"
+B,6,electric car battery,4,18166,0.373262,False,0.0,0.0,0.0,"Revive your Samsung Galaxy Note 8 with this 3300 mAh, High Capacity Lithium Polymer Battery. You get"
+B,6,electric car battery,5,15853,0.342624,False,0.0,0.0,0.0,Why does my battery drain fast when I'm not using the device? Whenever I wake my Transformer up afte
+B,7,home mortgage interest rates,1,14813,0.636076,True,1.0,0.5555555555555556,1.0,What not to do when you about to get a mortgage approval. What not to do when you about to get a mor
+B,7,home mortgage interest rates,2,12912,0.613258,True,1.0,0.5555555555555556,1.0,"For a first-time home buyer interested in building wealth, the rent versus buy decision is often con"
+B,7,home mortgage interest rates,3,24506,0.565206,True,1.0,0.5555555555555556,1.0,What to Do Before Applying for a Mortgage:- Guys today we shall teach you and tell you in detail abo
+B,7,home mortgage interest rates,4,16873,0.50356,True,1.0,0.5555555555555556,1.0,"We offer a number of products. When purchasing the home of your dreams, adding real estate to your i"
+B,7,home mortgage interest rates,5,8555,0.414104,True,1.0,0.5555555555555556,1.0,Finding a mortgage broker (or mortgage advisor) in Egloskerry will work to help you analyse your sit
+B,8,dog training tips,1,1987,0.518835,True,0.4,1.0,1.0,Would you love to work with us but you live outside of Southern California? Thanks to the magic of t
+B,8,dog training tips,2,13901,0.512823,False,0.4,1.0,1.0,"Whether you’re alone, have a partner, or have a family of your own, a pet can complete your househol"
+B,8,dog training tips,3,8413,0.506099,True,0.4,1.0,1.0,"Making the commitment to own a dog is not to be taken lightly, intelligent, loving and loyal, dogs b"
+B,8,dog training tips,4,12738,0.479747,False,0.4,1.0,1.0,"These days we live, sleep, and eat with our dogs, in the same house. We share the same air space, ev"
+B,8,dog training tips,5,7024,0.448987,False,0.4,1.0,1.0,"When you're in the mood for a piece of unique, artisan dog breed jewelry, fetch For Love of a Dog. Y"
+C,1,medical image classification,1,18971,0.422245,False,0.0,,0.0,The new RTS Environmental Classification system (RTS GLT) is designed for parties who are commission
+C,1,medical image classification,2,8527,0.336346,False,0.0,,0.0,History of maize classification. How races used in classification. Geographical distribution. Existi
+C,1,medical image classification,3,19908,0.249337,False,0.0,,0.0,Download League Of Legends Wallpapers in high-quality for your desktop and smart-phone in wide-scree
+C,1,medical image classification,4,15682,0.227534,False,0.0,,0.0,"- Group Image: Provided functionality of group's image, user can now view and change the group's ima"
+C,1,medical image classification,5,12658,0.224319,False,0.0,,0.0,"This guidance is for pharmacists who handle, use and sell/supply medical devices. What to do with me"
+C,2,transformer language model,1,27936,0.471798,False,0.0,,0.0,"hi, I am having problems with transformer / circuit board om my Hobby 720 uml model 2003. In view of"
+C,2,transformer language model,2,25428,0.267799,False,0.0,,0.0,"Note: If you're on an iPhone, you cannot change the language of Facebook through the mobile app. Ins"
+C,2,transformer language model,3,4075,0.22338,False,0.0,,0.0,"Looking for Spanish language instructor to improve my reading, writing and speaking skills. We requi"
+C,2,transformer language model,4,701,0.214815,False,0.0,,0.0,Program in Teaching French as a Foreign Language was established in 1985 under the Department of For
+C,2,transformer language model,5,13690,0.203898,False,0.0,,0.0,Text in finnish language missing. Sorry for the inconvinience. See in english language.
+C,3,deep learning healthcare,1,9252,0.271161,False,0.2,0.5,0.3333,"SAN DIEGO AND WASHINGTON, D.C. – Sept. 5, 2018 – West Health, a family of nonpartisan, nonprofit org"
+C,3,deep learning healthcare,2,11979,0.269689,False,0.2,0.5,0.3333,Doctorate of Healthcare Organization Program is designed for the healthcare professionals who are wo
+C,3,deep learning healthcare,3,11119,0.269608,True,0.2,0.5,0.3333,The opportunities offered by Big Data will only materialize when healthcare systems move beyond the 
+C,3,deep learning healthcare,4,6123,0.263658,False,0.2,0.5,0.3333,"With today’s advancement in technology, it is becoming more convenient than ever before to earn a Ba"
+C,3,deep learning healthcare,5,7564,0.220918,False,0.2,0.5,0.3333,"would I have learned, learnt? would you have learned, learnt? would he have learned, learnt? would w"
+C,4,natural language processing,1,25428,0.345562,False,0.2,0.5,0.25,"Note: If you're on an iPhone, you cannot change the language of Facebook through the mobile app. Ins"
+C,4,natural language processing,2,8705,0.330323,False,0.2,0.5,0.25,These regulations may be called the Food Safety and Standards (Food Products Standards and Food Addi
+C,4,natural language processing,3,4075,0.288246,False,0.2,0.5,0.25,"Looking for Spanish language instructor to improve my reading, writing and speaking skills. We requi"
+C,4,natural language processing,4,5699,0.283503,True,0.2,0.5,0.25,"Truth-value gaps in natural language. Waldo, James Hewins, ""Truth-value gaps in natural language."" ("
+C,4,natural language processing,5,701,0.277193,False,0.2,0.5,0.25,Program in Teaching French as a Foreign Language was established in 1985 under the Department of For
+C,5,heart attack treatment,1,799,0.376774,True,0.4,0.6666666666666666,1.0,Can You Have A Heart Attack With A Pacemaker? A pacemaker is not a cure. It will not prevent or stop
+C,5,heart attack treatment,2,11245,0.231056,False,0.4,0.6666666666666666,1.0,"Drink lots of water! HA fillers need water to settle perfectly on your skin, if you’re dehydrated yo"
+C,5,heart attack treatment,3,1422,0.215825,True,0.4,0.6666666666666666,1.0,I. Causes of Heart Failure: What every physician needs to know. Heart failure (HF) is a clinical syn
+C,5,heart attack treatment,4,16626,0.212107,False,0.4,0.6666666666666666,1.0,"After failing to apprehend the terrorist behind a Paris attack that claimed dozens of lives, CIA age"
+C,5,heart attack treatment,5,9420,0.205995,False,0.4,0.6666666666666666,1.0,Treatment of bleeding problems without removal of uterus (TCRE) Etc. Screening and treatment for can
+C,6,electric car battery,1,2183,0.483506,False,0.2,0.5,0.25,"After removing the 2 screws, pull out the battery. The battery is connected to the motherboard on th"
+C,6,electric car battery,2,8618,0.372631,False,0.2,0.5,0.25,You can extend the life of your scooter's battery if you take proper care of it. Most people report 
+C,6,electric car battery,3,18166,0.369558,False,0.2,0.5,0.25,"Revive your Samsung Galaxy Note 8 with this 3300 mAh, High Capacity Lithium Polymer Battery. You get"
+C,6,electric car battery,4,29182,0.369162,True,0.2,0.5,0.25,Battery electric: the demise of diesel underground? Battery-powered machines use powerful electric m
+C,6,electric car battery,5,1924,0.339605,False,0.2,0.5,0.25,"People often think that they need to buy it to use the car, but today, despite the car rental indust"
+C,7,home mortgage interest rates,1,12912,0.519601,True,1.0,0.5555555555555556,1.0,"For a first-time home buyer interested in building wealth, the rent versus buy decision is often con"
+C,7,home mortgage interest rates,2,14813,0.49689,True,1.0,0.5555555555555556,1.0,What not to do when you about to get a mortgage approval. What not to do when you about to get a mor
+C,7,home mortgage interest rates,3,24506,0.421098,True,1.0,0.5555555555555556,1.0,What to Do Before Applying for a Mortgage:- Guys today we shall teach you and tell you in detail abo
+C,7,home mortgage interest rates,4,16873,0.384795,True,1.0,0.5555555555555556,1.0,"We offer a number of products. When purchasing the home of your dreams, adding real estate to your i"
+C,7,home mortgage interest rates,5,7794,0.379889,True,1.0,0.5555555555555556,1.0,"Additionally, Freddie Mac’s most recent Economic Commentary & Projections Table predicts that the 30"
+C,8,dog training tips,1,8413,0.435356,True,0.4,1.0,1.0,"Making the commitment to own a dog is not to be taken lightly, intelligent, loving and loyal, dogs b"
+C,8,dog training tips,2,7024,0.427896,False,0.4,1.0,1.0,"When you're in the mood for a piece of unique, artisan dog breed jewelry, fetch For Love of a Dog. Y"
+C,8,dog training tips,3,13901,0.402436,False,0.4,1.0,1.0,"Whether you’re alone, have a partner, or have a family of your own, a pet can complete your househol"
+C,8,dog training tips,4,19239,0.395219,False,0.4,1.0,1.0,"With the need to have an attracting dog, various Florida dog grooming facilities have been set up by"
+C,8,dog training tips,5,1987,0.390169,True,0.4,1.0,1.0,Would you love to work with us but you live outside of Southern California? Thanks to the magic of t

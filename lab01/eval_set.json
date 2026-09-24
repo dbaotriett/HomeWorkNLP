@@ -1,0 +1,10 @@
+[
+  {"query": "medical image classification", "relevant": []},
+  {"query": "transformer language model", "relevant": []},
+  {"query": "deep learning healthcare", "relevant": [15168, 11119]},
+  {"query": "natural language processing", "relevant": [21879, 5699]},
+  {"query": "heart attack treatment", "relevant": [799, 1422, 25228]},
+  {"query": "electric car battery", "relevant": [344, 29182]},
+  {"query": "home mortgage interest rates", "relevant": [12912, 14813, 16873, 7794, 13866, 8555, 24506, 8380, 1925]},
+  {"query": "dog training tips", "relevant": [1987, 8413]}
+]
