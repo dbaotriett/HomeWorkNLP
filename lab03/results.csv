@@ -1,0 +1,73 @@
+experiment,config,metric,value
+exp1_cooc,window=1,cos_doctor_physician_count,0.842
+exp1_cooc,window=1,cos_doctor_physician_ppmi,0.107
+exp1_cooc,window=1,cos_cat_dog_ppmi,0.126
+exp1_cooc,window=1,nonzero,1131356
+exp1_cooc,window=2,cos_doctor_physician_count,0.828
+exp1_cooc,window=2,cos_doctor_physician_ppmi,0.099
+exp1_cooc,window=2,cos_cat_dog_ppmi,0.141
+exp1_cooc,window=2,nonzero,2143234
+exp1_cooc,window=5,cos_doctor_physician_count,0.882
+exp1_cooc,window=5,cos_doctor_physician_ppmi,0.139
+exp1_cooc,window=5,cos_cat_dog_ppmi,0.154
+exp1_cooc,window=5,nonzero,4333662
+exp2_w2v,"base(d100,w5,sg)",top5_doctor,dentist physician ophthalmologist surgeon dermatologist
+exp2_w2v,"base(d100,w5,sg)",top5_hospital,chongqing obstetrics icu chiropractic cardiologist
+exp2_w2v,"base(d100,w5,sg)",top5_patient,doctor client initiating hygiene glossopharyngeal
+exp2_w2v,"base(d100,w5,sg)",top5_disease,chronic autoimmune syndrome artery diseases
+exp2_w2v,"base(d100,w5,sg)",top5_computer,emachines defraggler folders software desktop
+exp2_w2v,"base(d100,w5,sg)",top5_football,replica shirt shirts shirtr thcheap
+exp2_w2v,"base(d100,w5,sg)",top5_banana,cereals diced fennel confectioners pulp
+exp2_w2v,skip-gram,train_time_s,37.8
+exp2_w2v,CBOW,train_time_s,16.4
+exp3_window,window=2,sim_doctor-physician,0.73
+exp3_window,window=2,sim_doctor-hospital,0.532
+exp3_window,window=2,sim_cat-dog,0.561
+exp3_window,window=2,sim_doctor-nurse,0.564
+exp3_window,window=2,sim_car-road,0.348
+exp3_window,window=2,train_time_s,22.9
+exp3_window,window=5,sim_doctor-physician,0.716
+exp3_window,window=5,sim_doctor-hospital,0.558
+exp3_window,window=5,sim_cat-dog,0.588
+exp3_window,window=5,sim_doctor-nurse,0.619
+exp3_window,window=5,sim_car-road,0.336
+exp3_window,window=5,train_time_s,37.8
+exp3_window,window=10,sim_doctor-physician,0.676
+exp3_window,window=10,sim_doctor-hospital,0.562
+exp3_window,window=10,sim_cat-dog,0.56
+exp3_window,window=10,sim_doctor-nurse,0.625
+exp3_window,window=10,sim_car-road,0.4
+exp3_window,window=10,train_time_s,55.3
+exp4_dim,dim=50,train_s,41.6
+exp4_dim,dim=50,size_MB,7.9
+exp4_dim,dim=50,spearman,0.774
+exp4_dim,dim=50,analogy_top1,0.53
+exp4_dim,dim=50,analogy_top5,0.73
+exp4_dim,dim=50,category_acc,0.98
+exp4_dim,dim=50,doctor_physician,0.814
+exp4_dim,dim=100,train_s,37.8
+exp4_dim,dim=100,size_MB,14.7
+exp4_dim,dim=100,spearman,0.813
+exp4_dim,dim=100,analogy_top1,0.53
+exp4_dim,dim=100,analogy_top5,0.73
+exp4_dim,dim=100,category_acc,0.98
+exp4_dim,dim=100,doctor_physician,0.716
+exp4_dim,dim=300,train_s,86.7
+exp4_dim,dim=300,size_MB,41.7
+exp4_dim,dim=300,spearman,0.836
+exp4_dim,dim=300,analogy_top1,0.47
+exp4_dim,dim=300,analogy_top5,0.67
+exp4_dim,dim=300,category_acc,0.96
+exp4_dim,dim=300,doctor_physician,0.57
+eval_sim,base,spearman,0.813
+eval_analogy,base,hit@1,0.53
+eval_analogy,base,hit@5,0.73
+application_search,medical treatment|TF-IDF,P@20,0.8
+application_search,medical treatment|TF-IDF+expansion,P@20,0.6
+application_search,medical treatment|Embedding avg,P@20,0.9
+application_search,doctor hospital|TF-IDF,P@20,0.65
+application_search,doctor hospital|TF-IDF+expansion,P@20,0.65
+application_search,doctor hospital|Embedding avg,P@20,0.8
+application_search,cancer therapy|TF-IDF,P@20,0.5
+application_search,cancer therapy|TF-IDF+expansion,P@20,0.45
+application_search,cancer therapy|Embedding avg,P@20,0.8
