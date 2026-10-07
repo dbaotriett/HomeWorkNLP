@@ -9,7 +9,6 @@
 | `prediction.pdf` | Dự đoán trước experiment (bản scan): mục 9 |
 | `cooccurrence.py` | `build_vocabulary`, `build_cooccurrence_matrix`, `cosine_similarity`, `most_similar`, PPMI (có test) |
 | `word_embedding.ipynb` | Experiment 1–4, evaluation, semantic search, polysemy |
-| `build_nb.py` | Script sinh notebook |
 | `results.csv` | Số liệu các thí nghiệm |
 | `error_analysis.md` | 3 similarity đúng, 3 sai/bất ngờ, polysemy `bank` |
 | `reflection.md` | Bảng Static → Contextual và câu hỏi `bank` |
@@ -19,7 +18,7 @@
 ```bash
 pip install gensim scikit-learn scipy pandas nbformat ipykernel
 python cooccurrence.py
-python build_nb.py && jupyter nbconvert --to notebook --execute --inplace word_embedding.ipynb
+jupyter nbconvert --to notebook --execute --inplace word_embedding.ipynb
 ```
 
 Corpus: 8,000 document đầu của `../lab02/data/c4-train.00000-of-01024-30K.json.gz` (không commit).
