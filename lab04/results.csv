@@ -1,0 +1,66 @@
+experiment,config,metric,value
+exp1_inspect,imdb,samples,50000
+exp1_inspect,imdb,duplicates,418
+exp1_inspect,imdb,median_words,173.0
+leakage,fit trên TRAIN (đúng),test_f1,0.9034
+leakage,fit trên TẤT CẢ (leak),test_f1,0.9029
+exp2_baseline,tfidf+lr,accuracy,0.9063
+exp2_baseline,tfidf+lr,precision,0.9002
+exp2_baseline,tfidf+lr,recall,0.9148
+exp2_baseline,tfidf+lr,f1,0.9074
+exp2_baseline,tfidf+lr,vocab_size,48587
+exp2_baseline,tfidf+lr,train_time_s,0.71
+exp3_compare,TF-IDF+Logistic Regression,accuracy,0.9063
+exp3_compare,TF-IDF+Logistic Regression,precision,0.9002
+exp3_compare,TF-IDF+Logistic Regression,recall,0.9148
+exp3_compare,TF-IDF+Logistic Regression,f1,0.9074
+exp3_compare,Avg Word2Vec+Logistic Regression,accuracy,0.8712
+exp3_compare,Avg Word2Vec+Logistic Regression,precision,0.8656
+exp3_compare,Avg Word2Vec+Logistic Regression,recall,0.88
+exp3_compare,Avg Word2Vec+Logistic Regression,f1,0.8728
+exp3_compare,TF-IDF+Linear SVM,accuracy,0.906
+exp3_compare,TF-IDF+Linear SVM,precision,0.8996
+exp3_compare,TF-IDF+Linear SVM,recall,0.9148
+exp3_compare,TF-IDF+Linear SVM,f1,0.9072
+exp3_compare,w2v,w2v_train_time_s,48.1
+exp4_order,avg_w2v,cos_S1_S2,0.9765
+exp5_ngram,Unigram,Vocabulary,48587
+exp5_ngram,Unigram,F1,0.9074
+exp5_ngram,Unigram,Training time (s),5.2
+exp5_ngram,Uni + Bigram,Vocabulary,491451
+exp5_ngram,Uni + Bigram,F1,0.9115
+exp5_ngram,Uni + Bigram,Training time (s),19.2
+confusion,TF-IDF + LR,TN_FP_FN_TP,"4434,505,424,4553"
+confusion,Avg W2V + LR,TN_FP_FN_TP,"4259,680,597,4380"
+confusion,TF-IDF + SVM,TN_FP_FN_TP,"4431,508,424,4553"
+confusion,TF-IDF (1-2gram) + LR,TN_FP_FN_TP,"4447,492,397,4580"
+weights,top_positive,excellent,10.59
+weights,top_positive,great,10.42
+weights,top_positive,perfect,7.28
+weights,top_positive,loved,6.95
+weights,top_positive,amazing,6.73
+weights,top_positive,best,6.04
+weights,top_positive,enjoyed,6.0
+weights,top_positive,brilliant,5.97
+weights,top_positive,wonderful,5.88
+weights,top_positive,enjoyable,5.69
+weights,top_positive,hilarious,5.38
+weights,top_positive,superb,5.29
+weights,top_positive,today,5.01
+weights,top_positive,gem,4.99
+weights,top_positive,it,4.89
+weights,top_negative,worst,-13.39
+weights,top_negative,waste,-10.24
+weights,top_negative,awful,-9.87
+weights,top_negative,bad,-9.85
+weights,top_negative,boring,-8.52
+weights,top_negative,terrible,-7.81
+weights,top_negative,poor,-7.68
+weights,top_negative,horrible,-7.02
+weights,top_negative,poorly,-6.7
+weights,top_negative,disappointment,-6.61
+weights,top_negative,worse,-6.56
+weights,top_negative,dull,-6.25
+weights,top_negative,save,-6.23
+weights,top_negative,nothing,-6.07
+weights,top_negative,disappointing,-6.01
