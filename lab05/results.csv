@@ -1,0 +1,79 @@
+experiment,config,metric,value
+exp1_dataset,imdb,samples,50000
+exp1_dataset,imdb,duplicates,418
+exp1_dataset,imdb,min_len,6
+exp1_dataset,imdb,median_len,172.0
+exp1_dataset,imdb,mean_len,229.9
+exp1_dataset,imdb,max_len,2462
+exp3_baseline,Logistic Regression|TF-IDF,accuracy,0.9063
+exp3_baseline,Logistic Regression|TF-IDF,precision,0.9002
+exp3_baseline,Logistic Regression|TF-IDF,recall,0.9148
+exp3_baseline,Logistic Regression|TF-IDF,f1,0.9074
+exp3_baseline,Logistic Regression|TF-IDF,train_time_s,5.1997
+exp3_baseline,RNN|Embedding (L=200),accuracy,0.7301
+exp3_baseline,RNN|Embedding (L=200),precision,0.6985
+exp3_baseline,RNN|Embedding (L=200),recall,0.8133
+exp3_baseline,RNN|Embedding (L=200),f1,0.7516
+exp3_baseline,RNN|Embedding (L=200),train_time_s,45.1188
+exp4_rnn_lstm_gru,RNN,accuracy,0.7301
+exp4_rnn_lstm_gru,RNN,precision,0.6985
+exp4_rnn_lstm_gru,RNN,recall,0.8133
+exp4_rnn_lstm_gru,RNN,f1,0.7516
+exp4_rnn_lstm_gru,RNN,params,2029569
+exp4_rnn_lstm_gru,RNN,train_time_s,45.1
+exp4_rnn_lstm_gru,RNN,best_epoch,6
+exp4_rnn_lstm_gru,LSTM,accuracy,0.8543
+exp4_rnn_lstm_gru,LSTM,precision,0.8538
+exp4_rnn_lstm_gru,LSTM,recall,0.8563
+exp4_rnn_lstm_gru,LSTM,f1,0.8551
+exp4_rnn_lstm_gru,LSTM,params,2117889
+exp4_rnn_lstm_gru,LSTM,train_time_s,48.2
+exp4_rnn_lstm_gru,LSTM,best_epoch,4
+exp4_rnn_lstm_gru,GRU,accuracy,0.8787
+exp4_rnn_lstm_gru,GRU,precision,0.8788
+exp4_rnn_lstm_gru,GRU,recall,0.8796
+exp4_rnn_lstm_gru,GRU,f1,0.8792
+exp4_rnn_lstm_gru,GRU,params,2088449
+exp4_rnn_lstm_gru,GRU,train_time_s,46.6
+exp4_rnn_lstm_gru,GRU,best_epoch,3
+exp2_5_length,RNN|L=50,accuracy,0.6899
+exp2_5_length,RNN|L=50,f1,0.7023
+exp2_5_length,RNN|L=50,train_time_s,20.0233
+exp2_5_length,RNN|L=50,min_val_loss,0.5918
+exp2_5_length,RNN|L=100,accuracy,0.7076
+exp2_5_length,RNN|L=100,f1,0.6971
+exp2_5_length,RNN|L=100,train_time_s,27.9302
+exp2_5_length,RNN|L=100,min_val_loss,0.6076
+exp2_5_length,RNN|L=200,accuracy,0.7301
+exp2_5_length,RNN|L=200,f1,0.7516
+exp2_5_length,RNN|L=200,train_time_s,45.1188
+exp2_5_length,RNN|L=200,min_val_loss,0.58
+exp2_5_length,LSTM|L=50,accuracy,0.7765
+exp2_5_length,LSTM|L=50,f1,0.7863
+exp2_5_length,LSTM|L=50,train_time_s,21.921
+exp2_5_length,LSTM|L=50,min_val_loss,0.47
+exp2_5_length,LSTM|L=100,accuracy,0.829
+exp2_5_length,LSTM|L=100,f1,0.8319
+exp2_5_length,LSTM|L=100,train_time_s,30.6932
+exp2_5_length,LSTM|L=100,min_val_loss,0.4224
+exp2_5_length,LSTM|L=200,accuracy,0.8543
+exp2_5_length,LSTM|L=200,f1,0.8551
+exp2_5_length,LSTM|L=200,train_time_s,48.1798
+exp2_5_length,LSTM|L=200,min_val_loss,0.3741
+exp6_position,RNN|beginning,margin,0.0
+exp6_position,RNN|middle,margin,0.013
+exp6_position,RNN|end,margin,0.698
+exp6_position,LSTM|beginning,margin,0.108
+exp6_position,LSTM|middle,margin,0.116
+exp6_position,LSTM|end,margin,0.446
+exp6_position,GRU|beginning,margin,0.21
+exp6_position,GRU|middle,margin,0.199
+exp6_position,GRU|end,margin,0.252
+confusion,RNN,TN_FP_FN_TP,"3192,1747,929,4048"
+confusion,LSTM,TN_FP_FN_TP,"4209,730,715,4262"
+confusion,GRU,TN_FP_FN_TP,"4335,604,599,4378"
+error_analysis,GRU,err_rate_len<=200,0.102
+error_analysis,GRU,err_rate_len>200,0.15
+verify_truncation,GRU_long_reviews,acc_first200,0.8496
+verify_truncation,GRU_long_reviews,acc_last200,0.8869
+verify_truncation,GRU_long_reviews,acc_full,0.9088
