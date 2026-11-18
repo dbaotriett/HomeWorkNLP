@@ -1,0 +1,41 @@
+experiment,config,metric,value
+exp2_baseline_vs_bert,Baseline (features + LR),entity_precision,0.7219
+exp2_baseline_vs_bert,Baseline (features + LR),entity_recall,0.7778
+exp2_baseline_vs_bert,Baseline (features + LR),entity_f1,0.7488
+exp2_baseline_vs_bert,Baseline (features + LR),token_accuracy,0.9586
+exp2_baseline_vs_bert,Baseline (features + LR),token_f1_nonO,0.8113
+exp2_baseline_vs_bert,BERT fine-tuned (Strategy A),entity_precision,0.9077
+exp2_baseline_vs_bert,BERT fine-tuned (Strategy A),entity_recall,0.9226
+exp2_baseline_vs_bert,BERT fine-tuned (Strategy A),entity_f1,0.9151
+exp2_baseline_vs_bert,BERT fine-tuned (Strategy A),token_accuracy,0.9831
+exp2_baseline_vs_bert,BERT fine-tuned (Strategy A),token_f1_nonO,0.9263
+exp5_entity_length,Baseline (features + LR)|len=1,f1|n_gold,0.7342|3574.0
+exp5_entity_length,Baseline (features + LR)|len=2,f1|n_gold,0.8133|1776.0
+exp5_entity_length,Baseline (features + LR)|len=3,f1|n_gold,0.5816|236.0
+exp5_entity_length,Baseline (features + LR)|len=4+,f1|n_gold,0.2892|62.0
+exp5_entity_length,BERT fine-tuned (Strategy A)|len=1,f1|n_gold,0.9115|3574.0
+exp5_entity_length,BERT fine-tuned (Strategy A)|len=2,f1|n_gold,0.9282|1776.0
+exp5_entity_length,BERT fine-tuned (Strategy A)|len=3,f1|n_gold,0.88|236.0
+exp5_entity_length,BERT fine-tuned (Strategy A)|len=4+,f1|n_gold,0.8855|62.0
+pred3_rare_entity,Baseline (features + LR)|seen,f1|recall|n_gold,0.9220|0.92|2963
+pred3_rare_entity,Baseline (features + LR)|unseen,f1|recall|n_gold,0.5728|0.6209|2685
+pred3_rare_entity,BERT fine-tuned (Strategy A)|seen,f1|recall|n_gold,0.9639|0.9602|2963
+pred3_rare_entity,BERT fine-tuned (Strategy A)|unseen,f1|recall|n_gold,0.8626|0.8812|2685
+confusion_top,O->I-MISC,count,65
+confusion_top,O->B-MISC,count,59
+confusion_top,B-LOC->B-ORG,count,54
+confusion_top,B-ORG->B-LOC,count,42
+confusion_top,O->B-ORG,count,41
+confusion_top,B-MISC->B-ORG,count,41
+confusion_top,O->I-ORG,count,39
+confusion_top,B-ORG->B-MISC,count,35
+error_counts,FP,n,143
+error_counts,TYPE,n,225
+error_counts,BOUNDARY,n,84
+error_counts,FN,n,60
+context_ambiguous_forms,BERT|Baseline,recall,0.8774|0.6948
+alignment_strategy,BERT_A,test_f1,0.9151
+alignment_strategy,BERT_B,test_f1,0.9137
+mini_ie_news30,BERT_A,precision,0.9437
+mini_ie_news30,BERT_A,recall,0.9437
+mini_ie_news30,BERT_A,f1,0.9437
