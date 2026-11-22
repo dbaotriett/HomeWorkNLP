@@ -43,7 +43,7 @@ Dữ liệu: IMDb 49,578 review (sau khi bỏ trùng), chia stratified 60/20/20 
 
 ## AI assistance statement
 - Tool: Claude Code
-- Purpose:
-- Generated content:
-- Modified content:
+- Purpose: Hỗ trợ phát triển, gỡ lỗi và cải thiện mã nguồn của dự án.
+- Generated content: Mã nguồn cho các hàm, tài liệu hỗ trợ.
+- Modified content: Cải thiện mã nguồn hiện có, sửa lỗi, tối ưu hiệu suất code.
 - Verification: chạy test `attention_numpy.py` (khớp tính tay và `torch.nn.functional.scaled_dot_product_attention`), chạy notebook trên Kaggle rồi chạy lại ở local, kiểm tra số liệu giữa notebook và các file .md.
