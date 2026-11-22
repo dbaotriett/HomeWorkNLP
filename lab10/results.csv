@@ -1,0 +1,34 @@
+experiment,config,metric,value
+exp1_context_length,QA_L384,EM,75.83
+exp1_context_length,QA_L384,F1,84.26
+exp1_context_length,QA_L384,Training time (s),1393
+exp1_context_length,QA_L384,Train windows,84483
+exp1_context_length,QA_L256,EM,75.74
+exp1_context_length,QA_L256,F1,84.32
+exp1_context_length,QA_L256,Training time (s),1168
+exp1_context_length,QA_L256,Train windows,92314
+exp1_context_length,QA_L128,EM,75.88
+exp1_context_length,QA_L128,F1,84.2
+exp1_context_length,QA_L128,Training time (s),1239
+exp1_context_length,QA_L128,Train windows,177848
+exp3_em_f1,baseline,EM,10.55
+exp3_em_f1,baseline,F1,22.51
+exp3_em_f1,QA_L384,EM,75.83
+exp3_em_f1,QA_L384,F1,84.26
+exp4_overlap,≤ 25%,model_f1|baseline_f1|n,73.44|8.65|1850
+exp4_overlap,25–50%,model_f1|baseline_f1|n,82.95|19.05|3253
+exp4_overlap,50–75%,model_f1|baseline_f1|n,87.6|25.56|3106
+exp4_overlap,> 75%,model_f1|baseline_f1|n,90.13|34.15|2361
+robustness,irrelevant,model_f1|delta_vs_original,84.20|+0.18
+robustness,distractor,model_f1|delta_vs_original,32.50|-51.51
+robustness,shuffle,model_f1|delta_vs_original,83.48|-0.82
+exp5_answer_length,1,EM|F1|n,79.76|84.83|3429
+exp5_answer_length,2–3,EM|F1|n,78.67|85.75|4575
+exp5_answer_length,4–6,EM|F1|n,71.84|83.81|1648
+exp5_answer_length,7+,EM|F1|n,54.14|75.47|918
+error_start_end,wrong end,n,549
+error_start_end,wrong span (sai chỗ),n,1177
+error_start_end,wrong start,n,654
+error_start_end,wrong span (chồng lấp),n,174
+error_start_end,same span (khác chuẩn hóa),n,1
+document_qa,course_faq_15q,EM|F1,73.3|88.4
