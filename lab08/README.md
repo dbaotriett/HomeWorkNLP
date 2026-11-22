@@ -61,7 +61,7 @@ jupyter nbconvert --to notebook --execute --inplace fine_tuning.ipynb
 - 107 lỗi có confidence ≥ 0.95 (ECE 0.0125): confidence ≠ correctness.
 
 ## AI assistance statement
-- AI-assisted code: Claude Code
-- What was generated:
-- What was modified:
+- AI-assisted code: Deepseek
+- What was generated: Code, sửa lỗi, giải thích kiến thức.
+- What was modified: Loại bỏ các đoạn mã dư thừa.
 - What was verified: chạy test `pretrained_classification.py` (shape, attention mask, freeze), chạy notebook trên Kaggle rồi chạy lại ở local, kiểm tra tokenizer và các con số trong file .md với output notebook.

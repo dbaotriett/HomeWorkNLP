@@ -48,7 +48,8 @@ Cấu hình: CoNLL-2003 (HF `eriktks/conll2003`, bản parquet) train 14,041 / v
 
 ## AI assistance statement
 - Tool: Claude Code
-- Purpose:
-- Generated:
-- Modified:
+- Purpose: Hỗ trợ xây dựng model nhận dạng thực thể (NER) và trích xuất thông tin (IE) sử dụng mô hình BERT trên bộ dữ liệu CoNLL-2003.
+- Generated: Tạo mã nguồn xử lý BIO tagging, chuyển đổi nhãn BIO thành entity spans và tính toán các chỉ số Precision, Recall, F1.
+             Xây dựng baseline NER sử dụng Logistic Regression.
+- Modified: Chỉnh sửa và hoàn thiện các hàm xử lý BIO tagging và entity-level metrics.
 - Verified: chạy test `ner_utils.py` (khớp `seqeval`) và `information_extraction.py`, chạy notebook trên Kaggle rồi chạy lại ở local, đối chiếu số liệu giữa notebook và các file .md.

@@ -47,8 +47,8 @@ Dữ liệu: IMDb 49,578 review (sau khi bỏ trùng), split stratified 60/20/20
 - Benchmark một batch: Transformer nhanh hơn LSTM ở T = 128–512, chậm hơn 3.8 lần ở T = 4096.
 
 ## AI assistance statement
-- Tool: Claude Code
-- Purpose:
-- Generated:
-- Modified:
+- Tool: ChatGPT
+- Purpose: Phân tích mã nguồn, phát hiện và khắc phục các lỗi trong chương trình.
+- Generated: Đề xuất các phương án tìm và sửa lỗi.
+- Modified: Sửa lỗi cú pháp và lỗi logic.
 - Verified: chạy test `transformer_block.py` (khớp `nn.TransformerEncoderLayer`) và `positional_encoding.py` (khớp tính tay), chạy notebook trên Kaggle rồi chạy lại ở local, đối chiếu số liệu giữa notebook và các file .md.
